@@ -1,0 +1,150 @@
+#titulo{
+    color: green;
+}
+
+nav{
+    background-color: greenyellow;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+}
+
+nav p{
+    margin: 0 4vw;
+    font-size: 1.3vw;
+}
+
+main{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+table, th, td {
+    border: 1px black solid;
+  }
+  
+  /*
+  Ajusto la tabla para que ocupe la mayoría de la pantalla y también para que esté centrada y los bordes juntos.
+  */
+  
+  table{
+    margin:auto;
+    border-collapse: collapse;
+    height: 60dvh;  
+    width: 50dvw;
+  }
+  
+  /*
+  Uso Google Fonts y un letter-spacing para mejor visualización de la cabecera en la tabla.
+  */
+  
+  th{
+    font-family: "Trirong", serif;
+    font-style:italic;
+    letter-spacing: 2px;
+    font-size: 130%;
+    background-color: white;
+  }
+  
+  /*
+  Añado degradado de fondo para los dias.
+  */
+  
+  .dias{
+    background: linear-gradient(45deg, rgb(10, 88, 9), lime, rgb(17, 181, 83));
+  }
+  
+  /*
+  Aplico estilo y fuente a todas las celdas de la tabla.
+  */
+  
+  td{
+    text-align: center;
+    font-size: 130%;
+    color: rgb(14, 226, 99);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: "Protest Strike", sans-serif;
+  }
+  
+  /*
+  Hago lo mismo individualmente con cada clase. Incluyendo un letter-spacing al recreo y también un padding-left, porque si se quita no está del todo centrado.
+  */
+  
+  #recreo{
+    background-color: rgba(0, 255, 0, 0.585);
+    letter-spacing: 5dvw;
+    font-size: 180%;
+    padding-left: 4.5dvw;
+  }
+  
+  .horas{
+    color:rgb(22, 226, 83);
+    background-color: rgb(2, 56, 0);
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .horas, th{
+    border: 2px black solid;
+  }
+  .programacion{
+    background-color:rgb(47, 255, 0);
+  }
+  
+  .bd{
+    background-color: #51c038;
+  }
+  
+  .sist{
+    background-color:rgb(105, 220, 64);
+  }
+  
+  .endes{
+    background-color:rgb(37, 157, 7);
+  }
+  
+  .fol{
+    background-color:rgb(6, 69, 6);
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px aquamarine;
+  }
+  
+  .llmm{
+    background-color:rgb(105, 232, 74);
+  }
+  
+  .digit{
+    background-color:rgb(27, 162, 0);
+  }
+  
+  .sasp{
+    background-color:forestgreen;
+  }
+  
+  /*
+  Centro la tabla verticalmente con el id anteriormente creado en HTML.
+  */
+  
+  #tabla{
+    display:flex;
+    align-items: center;
+    height: 100dvh;
+  }
+  
